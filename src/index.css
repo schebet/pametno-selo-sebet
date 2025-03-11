@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Serbian:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #2C5282;
+  --secondary-color: #4A5568;
+  --accent-color: #ED8936;
+}
+
+body {
+  font-family: 'Noto Sans Serbian', sans-serif;
+  @apply bg-gray-50;
+}
+
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}
+
+.btn-primary {
+  @apply bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
